@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iterator>
 
+// Actually quiz 2 of chapter 6.3
 
 int main() {
 	int userValue{};

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="printArray.cpp">
+    <ClCompile Include="chapter_7_8_function_pointer_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
