@@ -2,7 +2,7 @@
 #include <utility>
 
 // Note the user-defined comparison is the third parameter
-void SelectionSort(int* array, int size, bool (*comparisonFcn)(int, int))
+void SelectionSort(int* array, int size, bool (*comparisonFcn)(int, int) = ascending)
 {
 	// Step through each element of the array
 	for (int startIndex{ 0 }; startIndex < (size - 1); ++startIndex)
