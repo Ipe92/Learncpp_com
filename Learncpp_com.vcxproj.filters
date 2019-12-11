@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chapter_7_10_stdvector.cpp">
+    <ClCompile Include="chapter_7_quiz_binary_search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
