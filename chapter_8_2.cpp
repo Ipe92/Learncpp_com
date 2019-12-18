@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <array>
+#include <vector>
+
+class IntPair
+{
+public:
+	int m_x{ 0 };
+	int m_y{ 0 };
+
+	void set(int x, int y)
+	{
+		m_x = x;
+		m_y = y;
+	}
+
+	void print()
+	{
+		std::cout << "Pair(" << m_x << ", " << m_y << ")\n";
+	}
+};
+
+int main()
+{
+	IntPair p1;
+	p1.set(1, 1); // set p1 values to (1,1)
+
+	IntPair p2{ 2,2 }; // initialize p2 values to (2, 2)
+
+	p1.print();
+	p2.print();
+
+	return 0;
+}
